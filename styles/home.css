@@ -1,0 +1,84 @@
+/* body{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2px;
+	justify-content: center;
+	justify-items: center;
+	} */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+*,
+*::before *::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+ul{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;;
+}
+
+li .x {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+li .home {
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+
+li.bio {
+  grid-column: 1/ span 2;
+  grid-row: 2/2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li.distance {
+  grid-column: 1/span 2;
+  grid-row: 3/3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li .positive{
+  grid-column: 1/span 2;
+  grid-row: 4/4;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul .positive{
+  grid-column: 1/span 2;
+  grid-row: 5/8;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li .challenges{
+  grid-column: 1/span 2;
+  grid-row: 9/9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.challenges{
+  grid-column: 1/2;
+  grid-row: 9/9;
+  margin-left: auto;
+  margin-right: auto;
+}
