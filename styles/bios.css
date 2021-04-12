@@ -12,6 +12,7 @@ nav {
     height: 80px;
     width: 100%;
 }
+
 label.logo {
     color: white; 
     font-size: 35px;
@@ -47,4 +48,11 @@ nav .sub_nav {
 
 nav .main_nav li:hover .sub_nav{
     display: block;
+}
+
+/* styles for intro section */
+.intro {
+    margin: 2em 8em;
+    text-align: justify; 
+    font-size: 18px;
 }
