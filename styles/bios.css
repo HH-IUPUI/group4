@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: arial;
 }
 
 nav {
@@ -52,7 +53,29 @@ nav .main_nav li:hover .sub_nav{
 
 /* styles for intro section */
 .intro {
-    margin: 2em 8em;
+    margin: 2em 10em;
     text-align: justify; 
     font-size: 18px;
 }
+
+/* styles for bio section */
+
+.bio_headline {
+    text-align: center;
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2em 12em;
+    grid-column-gap: 50px;
+    grid-row-gap: 100px;
+    text-align: justify;
+    float: left;
+}
+
+.bio img {
+    width: 100%;
+}
+
+
