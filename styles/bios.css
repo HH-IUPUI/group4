@@ -75,7 +75,10 @@ nav .main_nav li:hover .sub_nav{
 }
 
 .bio img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin: 5px;
 }
 
 
