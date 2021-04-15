@@ -161,8 +161,9 @@ footer .footer_bottom {
 @media screen and (max-width: 800px) {
 
     .main_nav {
-        display: block;
-        margin-left: 50px;
+        display: grid;
+        grid-template-columns: 24% 24% 52%;
+        padding-left: 80px;
     }
     .form {
         margin: 10px;
@@ -177,7 +178,6 @@ footer .footer_bottom {
 
     .main_nav {
         display: block;
-        margin-left: 200px;
     }
 
     .form {
