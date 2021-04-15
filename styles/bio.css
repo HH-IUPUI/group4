@@ -134,7 +134,7 @@ footer .footer_bottom {
 
     .main_nav {
         display: grid;
-        grid-template-columns: 20% 60% 20%;
+        grid-template-columns: 24% 52% 24%;
         padding-left: 80px;
     }
     
