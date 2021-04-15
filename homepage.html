@@ -24,20 +24,27 @@
                 <li class="bio">Bio</li>
                 <li class="distance">Distance learning</li>
                 <li class="positive">Positive</li>
-                <ul class="positive">
-                    <li>Empathy</li>
-                    <li>Adaptility</li>
-                    <li>Innovation</li>
-                    <li>Flexibility</li>
-                </ul>
+                <li class="positiveClick" onclick="show()"><button>V</button></li>
+
+                <li id="empathy" class="positiveCollapse">Empathy</li>
+                <li id="adaptility" class="positiveCollapse">Adaptility</li>
+                <li id="innovation" class="positiveCollapse">Innovation</li>
+                <li id="flexibility" class="positiveCollapse">Flexibility</li>
+
                 <li class="challenges">Challenges</li>
-                <ul class="challenges">
+                
+                <li id="infrastructure" class="challengeCollapse">Infrastructure</li>
+                <li id="academics" class="challengeCollapse">Academics</li>
+                <li id="illness" class="challengeCollapse">Illness</li>
+                <li id="economics" class="challengeCollapse">Economics</li>
+
+                <!-- <ul class="challenges">
                     <li>Infrastructure</li>
                     <li>Academics</li>
                     <li>Illness</li>
                     <li>Economics</li>
-                </ul>
-            </ul>
+                </ul> -->
+            
         </nav>
     </header>
 
@@ -72,6 +79,8 @@
     <footer>
         <p>Footer goes here</p>
     </footer>
+
+<script src="home.js"></script>
 
 </body>
 

@@ -1,6 +1,6 @@
-body {
+main {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, repeat(4 1fr));
   gap: 2px;
   justify-content: center;
   justify-items: center;
@@ -26,11 +26,18 @@ ul {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(2, 100px);
-  gap: 10px;
+  grid-template-rows: repeat(5, 50px);
+  gap: 2px;
   justify-content: center;
-  justify-items: center;
+  justify-items: center; 
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   ;
+}
+
+li.positiveCollapse{
+  display: none;
 }
 
 li .x {
@@ -39,59 +46,91 @@ li .x {
 }
 
 li .home {
-  grid-column: 2/2;
+  grid-column: 1/1;
   grid-row: 1/1;
 }
 
 li.bio {
+  background-color: yellowgreen;
   grid-column: 1/ span 2;
   grid-row: 2/2;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 li.distance {
   grid-column: 1/span 2;
   grid-row: 3/3;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-li .positive {
-  grid-column: 1/span 2;
+li.positive {
+  background-color: violet;
+  grid-column: 1/1;
   grid-row: 4/4;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-ul .positive {
+li.positiveClick{
+  grid-column: 2/2;
+  grid-row: 4/4;
+}
+
+li#empathy{
+  background-color: blue;
   grid-column: 1/span 2;
-  grid-row: 5/8;
-  margin-left: auto;
-  margin-right: auto;
+  grid-row: 5/5;
 }
 
-li .challenges {
+li#adaptility{
+  background-color: brown;
   grid-column: 1/span 2;
-  grid-row: 9/9;
-  margin-left: auto;
-  margin-right: auto;
+  grid-row: 6/6;
 }
 
-ul.challenges {
-  grid-column: 1/2;
-  grid-row: 9/9;
-  margin-left: auto;
-  margin-right: auto;
+li#innovation {
+  background-color: violet;
+  grid-column: 1/span 2;
+  grid-row: 7/7;
 }
 
-figure .firstImg {
-  display: grid;
-  height: 100%;
+li#flexibility{
+  background-color: coral;
+  grid-column: 1/span 2;
+  grid-row: 8/8;
 }
 
-.centered {
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
+li.challenges {
+  background-color: yellowgreen;
+  grid-column: 1/ span 2;
+  grid-row: 5/5;
+}
+
+li.challengeCollapse{
+  display: none;
+}
+
+li#infrastructure{
+  background-color: darkgray;
+  grid-column: 1/span 2;
+  grid-row: 10/10
+}
+
+li#academics{
+  background-color: rgb(169, 169, 169);
+  grid-column: 1/span 2;
+  grid-row: 11/11
+}
+
+li#illness{
+  background-color: rgb(27, 17, 17);
+  grid-column: 1/span 2;
+  grid-row: 12/12
+}
+
+li#economics{
+  background-color: rgb(192, 71, 186);
+  grid-column: 1/span 2;
+  grid-row: 12/12
+}
+
+figure {
+  align-items: center;
+  align-content: center;
 }
