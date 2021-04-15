@@ -63,6 +63,7 @@ main section {
     background-image: url("../images/image_collab.jpeg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 
 
@@ -132,8 +133,9 @@ footer .footer_bottom {
 @media screen and (max-width: 800px) {
 
     .main_nav {
-        display: block;
-        margin-left: 50px;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        padding-left: 80px;
     }
     
     footer .footer_container {
@@ -145,14 +147,14 @@ main article div {
     line-height: 22px;
     margin: 50px 80px;
 }
-
    
 }
+
+
 @media screen and (max-width: 600px) {
 
     .main_nav {
         display: block;
-        margin-left: 200px;
     }
 
     
