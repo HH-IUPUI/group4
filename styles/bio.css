@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /*--------Styles for header and nav section----------*/
  header {
@@ -50,6 +51,7 @@
 
 main {
     margin-bottom: 150px;
+    height: 100%;
     
 }
 
@@ -68,7 +70,7 @@ main article div {
     line-height: 32px;
     margin: 50px 200px;
     padding: 10px;
-    font-size: 17px;
+    font-size: 19px;
 }
 main article div img {
     width: 23%;
@@ -124,6 +126,45 @@ footer .footer_bottom {
     left: 0%;
     padding: 5px;
     
+}
+
+/*------media queries---------*/
+@media screen and (max-width: 800px) {
+
+    .main_nav {
+        display: block;
+        margin-left: 50px;
+    }
+    
+    footer .footer_container {
+        margin-left: 100px;
+    }
+
+
+main article div {
+    line-height: 22px;
+    margin: 50px 80px;
+}
+
+   
+}
+@media screen and (max-width: 600px) {
+
+    .main_nav {
+        display: block;
+        margin-left: 200px;
+    }
+
+    
+   footer .footer_container {
+        margin-left: 10px;
+    }
+
+
+main article div {
+    line-height: 20px;
+    margin: 50px 50px;
+}
 }
 
 
