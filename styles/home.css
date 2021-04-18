@@ -45,7 +45,7 @@ h2{
 figcaption.linkCap{
   color: aliceblue;
   position: absolute;
-  left: 60%;
+  right: 10%;
   top: 30%;
   font-size: 100%;
   font-weight: bold;
@@ -126,7 +126,10 @@ figure.mona {
   grid-row: 2/2;
   grid-column: 1/7;
   /* background-image: url("//images/maskedMona.jpg"); */
-  background-color: crimson;
+  background-image: url("../images/maskedMona.jpg");
+  /* width: 100%; */
+  /* background-size: 100%; */
+  /* background-repeat: no-repeat; */
   
   /* object-fit: cover;
   width: 100%;
@@ -141,6 +144,10 @@ figure.mona {
 } */
 
 main {
+  /* background-image: url("../images/maskedMona.jpg");
+  width: 100%; 
+  background-size: 100%;
+  background-repeat: no-repeat; */
   font-size: 20px;
   grid-row: 4/4;
   grid-column: 2/6;
