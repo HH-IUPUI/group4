@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
 
+/* For distance.html only: */
+
+.bannerDistance {
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    /*  img from pixabay */
+    background: url("..//images/putOnMask.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a.readMore {
+    background-color: #000;
+    color: #fff;
+}
+
+#distanceMain {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+figure#positiveDistance {
+    width: 100%;
+}
+
+figure#negativeDistance {
+    width: 100%;
+}
+
+
 h1,
 h2,
 h3,
@@ -62,7 +97,7 @@ header {
     margin-bottom: 30px;
 }
 
-#nav{
+#nav {
     text-decoration: none;
     font-size: 28px;
     color: rgba(255, 255, 255, 1);
@@ -126,7 +161,7 @@ figcaption {
     right: 30%;
     top: 20%;
     font-size: 150%;
-    
+
 }
 
 li img {
@@ -196,7 +231,7 @@ footer .footer_bottom {
         white-space: nowrap;
     }
 
-    .fullwidth{
+    .fullwidth {
         align-content: center;
         grid-column: 1/4;
     }
