@@ -83,6 +83,7 @@ section.banner {
     margin-top: 100px;
     height: 300px;
     width: 100%;
+    /*  img from pixabay */
     background: url("..//images/lockdown.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -178,7 +179,7 @@ footer .footer_bottom {
 
     header {
         position: relative;
-        height: 100px;
+        height: 150px;
         width: 100%;
     }
 
@@ -188,9 +189,16 @@ footer .footer_bottom {
 
     .main_nav {
         display: grid;
-        grid-template-columns: 24% 52% 24%;
+        grid-template-columns: 1fr, repeat(3, 1fr);
+        justify-content: center;
+        justify-items: center;
         padding-left: 80px;
         white-space: nowrap;
+    }
+
+    .fullwidth{
+        align-content: center;
+        grid-column: 1/4;
     }
 
     footer .footer_container {

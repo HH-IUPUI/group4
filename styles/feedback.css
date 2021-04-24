@@ -42,6 +42,12 @@
     margin-bottom: 30px;
 }
 
+#nav{
+    text-decoration: none;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
 .main_nav li a {
     text-decoration: none;
     font-size: 28px;
@@ -162,9 +168,18 @@ footer .footer_bottom {
 
     .main_nav {
         display: grid;
-        grid-template-columns: 24% 24% 52%;
+        grid-template-columns: 1fr, repeat(3, 1fr);
+        justify-content: center;
+        justify-items: center;
+        white-space: nowrap;
         padding-left: 80px;
     }
+
+    .fullwidth{
+        align-content: center;
+        grid-column: 1/4;
+    }
+
     .form {
         margin: 10px;
     }
