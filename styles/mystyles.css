@@ -179,7 +179,7 @@ footer .footer_bottom {
 
     header {
         position: relative;
-        height: 150px;
+        height: 200px;
         width: 100%;
     }
 
@@ -220,7 +220,7 @@ footer .footer_bottom {
 @media screen and (max-width: 600px) {
 
     header {
-        height: 200px;
+        height: 250px;
         width: 100%;
     }
 

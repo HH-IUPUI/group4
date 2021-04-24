@@ -61,13 +61,14 @@
  /*------------Styles for main-----------*/
  main {
      min-height: 100%;
-     margin-top: 130px;
+     margin-top: 150px;
  }
 
  #form_description {
      text-align: center;
     font-size: 21px;
     letter-spacing: 3px;
+    margin-bottom: 20px;
  }
  input[type=text], select, textarea {
      width: 100%;
@@ -166,6 +167,20 @@ footer .footer_bottom {
 /* media queries styles */
 @media screen and (max-width: 800px) {
 
+    header {
+        position: relative;
+        height: 200px;
+        width: 100%;
+    }
+
+    #form_description{
+        margin-top: 30px;
+    }
+
+    main{
+        margin-top: 0;
+    }
+
     .main_nav {
         display: grid;
         grid-template-columns: 1fr, repeat(3, 1fr);
@@ -190,6 +205,10 @@ footer .footer_bottom {
    
 }
 @media screen and (max-width: 600px) {
+
+    header{
+        height: 250px;
+    }
 
     .main_nav {
         display: block;

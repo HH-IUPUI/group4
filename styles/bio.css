@@ -138,6 +138,11 @@ footer .footer_bottom {
 /*------media queries---------*/
 @media screen and (max-width: 800px) {
 
+    header{
+        position: relative;
+        height: 150px;
+    }
+
     .main_nav {
         display: grid;
         grid-template-columns: 1fr, repeat(3, 1fr);
@@ -145,6 +150,10 @@ footer .footer_bottom {
         justify-items: center;
         white-space: nowrap;
         padding-left: 80px;
+    }
+
+    main section{
+        margin-top: 0px;
     }
 
     .fullwidth{
@@ -165,6 +174,10 @@ main article div {
 
 
 @media screen and (max-width: 600px) {
+
+    header{
+        height: 250px;
+    }
 
     .main_nav {
         display: block;
