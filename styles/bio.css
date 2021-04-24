@@ -1,12 +1,12 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /*--------Styles for header and nav section----------*/
- header {
-    background-color:#00a4a6; 
+header {
+    background-color: #00a4a6;
     width: 100%;
     line-height: 1px;
     position: fixed;
@@ -34,7 +34,7 @@
     margin-bottom: 30px;
 }
 
-#nav{
+#nav {
     text-decoration: none;
     font-size: 28px;
     color: rgba(255, 255, 255, 1);
@@ -43,11 +43,12 @@
 .main_nav li a {
     text-decoration: none;
     font-size: 28px;
-    color:rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 
 }
+
 .main_nav li a:hover {
-    color:rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -58,7 +59,7 @@
 main {
     margin-bottom: 150px;
     height: 100%;
-    
+
 }
 
 main section {
@@ -79,20 +80,25 @@ main article div {
     padding: 10px;
     font-size: 19px;
 }
+
 main article div img {
     width: 23%;
     height: 23%;
-    padding: 0 15px 15px 15px; 
+    padding: 0 15px 15px 15px;
 }
+
 main article div .image_akesha {
     float: left;
 }
+
 main article div .image_alpo {
     float: right;
 }
+
 main article div .image_jaquelyn {
     float: left;
 }
+
 main article div .image_suraj {
     float: right;
 }
@@ -132,13 +138,13 @@ footer .footer_bottom {
     bottom: 0;
     left: 0%;
     padding: 5px;
-    
+
 }
 
 /*------media queries---------*/
 @media screen and (max-width: 800px) {
 
-    header{
+    header {
         position: relative;
         height: 150px;
     }
@@ -152,30 +158,36 @@ footer .footer_bottom {
         padding-left: 80px;
     }
 
-    main section{
+    main section {
         margin-top: 0px;
     }
 
-    .fullwidth{
+    .fullwidth {
         align-content: center;
         grid-column: 1/4;
     }
+
     footer .footer_container {
-        margin-left: 100px;
+        margin-left: 7rem;
+    }
+
+    footer {
+        font-size: 70%;
+        list-style: none;
     }
 
 
-main article div {
-    line-height: 22px;
-    margin: 50px 80px;
-}
-   
+    main article div {
+        line-height: 22px;
+        margin: 50px 80px;
+    }
+
 }
 
 
 @media screen and (max-width: 600px) {
 
-    header{
+    header {
         height: 250px;
     }
 
@@ -183,26 +195,17 @@ main article div {
         display: block;
     }
 
-    
-   footer .footer_container {
-        margin-left: 10px;
+    footer {
+        font-size: 50%;
+    }
+
+    footer .footer_container {
+        margin-left: 5rem;
     }
 
 
-main article div {
-    line-height: 20px;
-    margin: 50px 50px;
+    main article div {
+        line-height: 20px;
+        margin: 50px 50px;
+    }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-

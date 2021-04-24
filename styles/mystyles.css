@@ -15,6 +15,7 @@
 a.readMore {
     background-color: #000;
     color: #fff;
+    white-space: nowrap;
 }
 
 #distanceMain {
@@ -23,18 +24,48 @@ a.readMore {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    flex-direction: column;
-}
-
-figure#positiveDistance {
+    flex-wrap: wrap;
+    flex: 1 0 100%;
+    justify-content: space-around;
     width: 100%;
 }
 
-figure#negativeDistance {
+section.distances{
+    margin: 10% 4rem 5% 4rem;
     width: 100%;
+    border: #064f50 1px solid;
 }
 
+section#positiveDistance {
+    float: left;
+}
 
+p.pDistance{
+    float: none;
+}
+
+section#negativeDistance {
+    float: right;
+}
+
+img.distanceImg{
+    max-width: 10rem;
+    max-height: 10rem;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #064f50;
+}
+
+img#positiveImg{
+    float: left;
+}
+
+img#negativeImg{
+    float: right;
+}
+
+/* Distance end */
 h1,
 h2,
 h3,
@@ -113,6 +144,8 @@ header {
 .main_nav li a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
+
+/* body things */
 
 section.banner {
     margin-top: 100px;
@@ -237,11 +270,7 @@ footer .footer_bottom {
     }
 
     footer .footer_container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: unset;
-        line-height: 30px;
-        padding: 20px;
+        margin-left: 7rem;
     }
 
     footer {
@@ -266,6 +295,10 @@ footer .footer_bottom {
 
     footer {
         font-size: 50%;
+    }
+
+    footer .footer_container {
+        margin-left: 5rem;
     }
 
 

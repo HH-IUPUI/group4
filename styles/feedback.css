@@ -198,10 +198,15 @@ footer .footer_bottom {
     .form {
         margin: 10px;
     }
+
     footer .footer_container {
-        margin-left: 100px;
+        margin-left: 7rem;
     }
 
+    footer {
+        font-size: 70%;
+        list-style: none;
+    }
    
 }
 @media screen and (max-width: 600px) {
@@ -217,7 +222,12 @@ footer .footer_bottom {
     .form {
         margin: 5px;
     }
-   footer .footer_container {
-        margin-left: 10px;
+
+    footer {
+        font-size: 50%;
+    }
+    
+    footer .footer_container {
+        margin-left: 5rem;
     }
 }
