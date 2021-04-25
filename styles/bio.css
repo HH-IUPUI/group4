@@ -73,6 +73,14 @@ main section {
     background-size: 100%;
 }
 
+main section h2 {
+    display: none;
+}
+
+main article h3 {
+    display: none;
+}
+
 
 main article div {
     line-height: 32px;
@@ -107,7 +115,7 @@ main article div .image_suraj {
 
 footer {
     background-color: #00a4a6;
-    color: #efefef;
+    color: rgba(255, 255, 255, 1);
     height: 230px;
     position: relative;
 }
@@ -126,7 +134,9 @@ footer .footer_container ul li {
 
 footer .footer_container ul li a {
     text-decoration: none;
-    color: #efefef;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 footer .footer_bottom {
@@ -141,6 +151,10 @@ footer .footer_bottom {
 
 }
 
+footer section h4 {
+    display: none;
+}
+
 /*------media queries---------*/
 @media screen and (max-width: 800px) {
 
@@ -151,7 +165,7 @@ footer .footer_bottom {
 
     .main_nav {
         display: grid;
-        grid-template-columns: 1fr, repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         justify-items: center;
         white-space: nowrap;

@@ -84,17 +84,18 @@
  }
 
  input[type=submit] {
-     background-color: #4caf50;
-     color: #fff;
+     background-color: #45a059;
+     color: rgba(255, 255, 255, 1);
      padding: 12px 20px;
      border-radius: 10px;
      cursor: pointer;
      float: right;
      font-size: 20px;
+     font-weight: bold;
  }
 
  input[type=submit]:hover {
-     background-color: #45a049;
+     background-color: #66d369;
  }
 
  .form {
@@ -127,12 +128,11 @@
  /*------------Styles for footer-----------*/
 
 
-footer {
+ footer {
     background-color: #00a4a6;
-    color: #efefef;
+    color: rgba(255, 255, 255, 1);
     height: 230px;
     position: relative;
-
 }
 
 footer .footer_container {
@@ -149,7 +149,9 @@ footer .footer_container ul li {
 
 footer .footer_container ul li a {
     text-decoration: none;
-    color: #efefef;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 footer .footer_bottom {
@@ -161,9 +163,12 @@ footer .footer_bottom {
     bottom: 0;
     left: 0%;
     padding: 5px;
-    
+
 }
 
+footer section h4 {
+    display: none;
+}
 /* media queries styles */
 @media screen and (max-width: 800px) {
 
@@ -183,7 +188,7 @@ footer .footer_bottom {
 
     .main_nav {
         display: grid;
-        grid-template-columns: 1fr, repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         justify-items: center;
         white-space: nowrap;
