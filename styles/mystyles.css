@@ -197,7 +197,7 @@ figcaption {
 
 }
 
-li img {
+li img.images {
     width: 90%;
     height: 11rem;
     border-radius: 50%;
