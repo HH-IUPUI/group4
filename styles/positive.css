@@ -69,9 +69,10 @@ h1{
 
 /*--------Styles for footer----------*/
 
+
 footer {
     background-color: #00a4a6;
-    color: #efefef;
+    color: rgba(255, 255, 255, 1);
     height: 230px;
     position: relative;
 }
@@ -90,7 +91,9 @@ footer .footer_container ul li {
 
 footer .footer_container ul li a {
     text-decoration: none;
-    color: #efefef;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 footer .footer_bottom {
