@@ -10,12 +10,25 @@
     background: url("..//images/putOnMask.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    z-index: 2;
+}
+
+h1#distance{
+    font-size: 2rem;
+    position: absolute;
+    left: 38%;
+    right: 50%;
+    top: 38%;
+    white-space: nowrap;
+    color:#fff;
+    z-index: 1;
 }
 
 a.readMore {
     background-color: #000;
     color: #fff;
     white-space: nowrap;
+    z-index: 4;
 }
 
 #distanceMain {
@@ -30,44 +43,79 @@ a.readMore {
     width: 100%;
 }
 
-section.distances{
+figure.distances{
     margin: 10% 4rem 5% 4rem;
     width: 100%;
-    border: #064f50 1px solid;
+    background-color: #064f50;
+    border-radius: 10%;
+    /* border: #064f50 1px solid; */
 }
 
-section#positiveDistance {
+figure#positiveDistance {
     float: left;
 }
 
 p.pDistance{
-    float: none;
+    position: absolute;
+    margin-top: 7rem;
+    white-space: pre;
 }
 
-section#negativeDistance {
-    float: right;
+#negativeH{
+left: 115%;
 }
+
+#negativeP{
+    left: -20rem;
+}
+
+#negativeA{
+    position: absolute;
+    bottom: 10rem;
+    left: 22rem;
+}
+
+#positiveH{
+    
+}
+
+#positiveP{
+}
+
+#positiveA{
+}
+
+.hDistance{
+    position: absolute;
+    top: 2px;
+}
+/* 
+figure#negativeDistance {
+    float: right;
+} */
 
 img.distanceImg{
-    max-width: 10rem;
-    max-height: 10rem;
-    border-radius: 50%;
+    max-width: 100%;
+    max-height: 30rem;
+    border-radius: 10%;
     border-width: 1px;
     border-style: solid;
     border-color: #064f50;
+    /* position: relative; */
+    z-index: -1;
 }
 
 img#positiveImg{
-    float: left;
+    float: right;
 }
 
 img#negativeImg{
-    float: right;
+    float: left;
 }
 
 /* Distance end */
 h1,
-h2,
+h2:not(.validators),
 h3,
 h4,
 h5 {
@@ -105,6 +153,7 @@ header {
     line-height: 1px;
     position: fixed;
     top: 0;
+    z-index: 3;
 }
 
 .logo {
@@ -147,6 +196,10 @@ header {
 
 /* body things */
 
+#bannerH{
+    display: none;
+}
+
 section.banner {
     margin-top: 100px;
     height: 300px;
@@ -157,7 +210,7 @@ section.banner {
     background-repeat: no-repeat;
 }
 
-h1#firsth {
+h2#firsth {
     text-align: center;
     font-size: 140%;
     margin: 10% 4rem 10% 4rem;
@@ -193,12 +246,11 @@ figcaption {
     position: absolute;
     right: 30%;
     top: 20%;
-    font-size: 150%;
-
+    font-size: 130%;
 }
 
 li img.images {
-    width: 90%;
+    width: 100%;
     height: 11rem;
     border-radius: 50%;
 }
@@ -247,6 +299,11 @@ footer .footer_bottom {
 /*------media queries---------*/
 @media screen and (max-width: 800px) {
 
+    h1#distance{
+        top: 70%;
+        font-size: 1.5rem;
+    }
+
     header {
         position: relative;
         height: 200px;
@@ -284,6 +341,11 @@ footer .footer_bottom {
 
 
 @media screen and (max-width: 600px) {
+
+    h1#distance{
+        top: 75%;
+        font-size: 1rem;
+    }
 
     header {
         height: 250px;
