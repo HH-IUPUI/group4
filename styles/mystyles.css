@@ -10,7 +10,6 @@
     background: url("..//images/putOnMask.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    z-index: 2;
 }
 
 h1#distance{
@@ -21,14 +20,12 @@ h1#distance{
     top: 38%;
     white-space: nowrap;
     color:#fff;
-    z-index: 1;
 }
 
 a.readMore {
     background-color: #000;
     color: #fff;
     white-space: nowrap;
-    z-index: 4;
 }
 
 #distanceMain {
@@ -62,15 +59,17 @@ p.pDistance{
 }
 
 #negativeH{
+    position: relative;
 left: 115%;
 }
 
 #negativeP{
+    position: relative;
     left: -20rem;
 }
 
 #negativeA{
-    position: absolute;
+    position: relative;
     bottom: 10rem;
     left: 22rem;
 }
@@ -102,7 +101,6 @@ img.distanceImg{
     border-style: solid;
     border-color: #064f50;
     /* position: relative; */
-    z-index: -1;
 }
 
 img#positiveImg{
@@ -153,7 +151,7 @@ header {
     line-height: 1px;
     position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 1;
 }
 
 .logo {
@@ -239,7 +237,6 @@ article {
 figure {
     position: relative;
     margin: 2rem;
-    z-index: -1;
 }
 
 figcaption {
