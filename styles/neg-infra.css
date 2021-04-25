@@ -129,46 +129,47 @@ footer .footer_bottom {
     padding: 5px;
 
 }
+.card1
+{
+	
+	display:block;
+	left: auto;
+	top:0;
+	z-index:-1;
+	bottom:0;
+	width:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top;
+	
+}
+.card2 {
+  background-color: lightgray;
+  color: black;
+  padding-top: 100px
+  height: 4rem;
+  padding:50px;
+  position:relative;
+  z-index:-1;
+  font-family:Abril Fatface,Times New Roman,Times,serif;
+}
 
-
-
-/* Styles for the hero image */
-.hero {
-  /* Photo from Adobe Stock */
-  background: url('../images/akesha_banner.jpeg') center;
-  background-size: cover;
-  padding: 6rem 4rem;
-  /* grid styles */
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  align-items: center;
-  margin-top: 150px;
-  
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.hero > * {
-  color: white;
-}
 
-.hero > h1 {
-  font-size: 4rem;
-  padding-bottom: 1rem;
-}
 
-.hero > article > p {
-  font-size: 1.5rem;
-  font-weight: 200;
-}
 
-.hero > article > a {
-  padding: 1rem;
-  margin-top: .75rem;
-}
 /*  SECTIONS  ============================================================================= */
 
 .section {
 	clear: both;
-	padding: 0px;
+	padding-top: 160px;
 	margin: 0px;
 }
 
