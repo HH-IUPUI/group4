@@ -61,11 +61,60 @@ header {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* body starts after nav: */
+/*--------Styles for main, section and article----------*/
 
-h1{
-    margin-top: 250px;
+main {
+    margin: 175px 150px;
 }
+
+main .overview h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.positive_aspects h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.positive_aspects div {
+    margin-top: 40px;
+}
+
+.img_heart, .img_lightbulb {
+    float: left;
+    width: 40%;
+    height: 40%;
+    padding-right: 20px;
+
+}
+.img_screen, .img_yoga {
+    float: right;
+    width: 40%;
+    height: 40%;
+    padding-left: 20px;
+
+}
+
+
+
+main section .overview p {
+    line-height: 25px;
+    font-size: 19px;
+}
+.positive_aspects {
+    padding-top: 15px;
+}
+
+.positive_aspects div {
+    padding-top: 15px;
+}
+
+
+
+
+
+
 
 /*--------Styles for footer----------*/
 
