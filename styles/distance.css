@@ -279,6 +279,10 @@ footer .footer_bottom {
         list-style: none;
     }
 
+    footer .footer_bottom{
+        width: 98.3%;
+    }
+
 }
 
 
@@ -306,7 +310,8 @@ footer .footer_bottom {
 
 
     footer {
-        font-size: 50%;
+        font-size: 37%;
+        white-space: nowrap;
     }
 
     footer .footer_container {
@@ -318,4 +323,14 @@ footer .footer_bottom {
         line-height: 20px;
         margin: 50px 50px;
     }
+
+    footer .footer_bottom{
+        width: 97.2%;
+    }
+
+    .validators{
+        max-height: 75%;
+        max-width: 50%;
+    }
+    
 }
