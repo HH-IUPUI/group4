@@ -1,5 +1,4 @@
 * {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,10 +6,7 @@
     text-decoration: none;
 }
 
-*::before *::after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
-}
+
 
 /*--------Styles for header and nav section----------*/
 header {
@@ -170,7 +166,7 @@ footer section h4 {
 
     .main_nav {
         display: grid;
-        grid-template-columns: 1fr, repeat(3, 1fr);
+        grid-template-columns: 1fr repeat(3, 1fr);
         justify-content: center;
         justify-items: center;
         padding-left: 80px;
