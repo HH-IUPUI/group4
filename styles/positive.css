@@ -1,14 +1,12 @@
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 100%;
     padding: 0;
     margin: 0;
     list-style-type: none;
     text-decoration: none;
 }
 
-*,
 *::before *::after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
@@ -110,12 +108,6 @@ main section .overview p {
     padding-top: 15px;
 }
 
-
-
-
-
-
-
 /*--------Styles for footer----------*/
 
 
@@ -157,6 +149,10 @@ footer .footer_bottom {
 
 }
 
+footer section h4 {
+    display: none;
+}
+
 
 /*------media queries---------*/
 @media screen and (max-width: 800px) {
@@ -179,6 +175,10 @@ footer .footer_bottom {
         justify-items: center;
         padding-left: 80px;
         white-space: nowrap;
+    }
+
+    main {
+        margin: 100px 100px;
     }
 
     .fullwidth {
@@ -207,6 +207,10 @@ footer .footer_bottom {
 
     .main_nav {
         display: block;
+    }
+
+    main {
+        margin: 75px 50px;
     }
 
 
