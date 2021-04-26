@@ -22,11 +22,35 @@ h1#distance{
     color:#fff;
 }
 
+.hDistance, .pDistance{
+    position: absolute;
+}
+
+p#positiveP{
+    left: 45rem;
+    
+}
+
+h2#positiveH{
+    top: 20rem;
+    right: 1rem;
+}
+
 a.readMore {
     background-color: #000;
     color: #fff;
     white-space: nowrap;
     position: absolute;
+    bottom: 10rem;
+    
+}
+
+a#negativeA{
+    right: -12rem;
+}
+
+a#positiveA{
+    left: 25rem;
 }
 
 #distanceMain {
@@ -53,45 +77,15 @@ figure#positiveDistance {
     float: left;
 }
 
-p.pDistance{
-    position: absolute;
-    margin-top: 7rem;
-    white-space: pre;
+figcaption.distanceCap{
+    width: 100%;
+    height: 100%;
 }
 
-#negativeH{
-    position: relative;
-left: 115%;
-}
 
-#negativeP{
-    position: relative;
-    left: -20rem;
-}
-
-#negativeA{
-    bottom: 0;
-    left: 22rem;
-}
-
-#positiveH{
-    
-}
-
-#positiveP{
-}
-
-#positiveA{
-}
-
-.hDistance{
-    position: absolute;
-    top: 2px;
-}
-/* 
 figure#negativeDistance {
     float: right;
-} */
+}
 
 img.distanceImg{
     max-width: 100%;
@@ -100,7 +94,7 @@ img.distanceImg{
     border-width: 1px;
     border-style: solid;
     border-color: #064f50;
-    /* position: relative; */
+    position: relative;
 }
 
 img#positiveImg{
