@@ -46,7 +46,8 @@ h1#distance {
 
 a.readMore {
     padding-top: 2em;
-    color: rgb(56, 91, 189);
+    color: rgb(243, 223, 46);
+    text-decoration-line: underline;
 }
 
 .distanceCap {
@@ -160,7 +161,7 @@ header {
 }
 
 a:hover {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(206, 201, 201, 0.7);
 }
 
 /* body things */
