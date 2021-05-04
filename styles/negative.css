@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
 
 /* Generic styles */
-* {
-  opacity: 1;
-}
+
 a {
   background-color: #00a4a6;
   text-decoration: none;
@@ -122,6 +120,15 @@ footer section h4 {
   display: none;
 }
 
+.hero h1 {
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.challenges_article {
+  color: rgba(255, 255, 255, 0.7)
+
+}
+
 .hero {
   /* Photo from Adobe Stock */
   background: url('../images/akesha_banner.jpeg') center;
@@ -135,7 +142,9 @@ footer section h4 {
   
 }
 
-.hero > * {
+
+
+.hero {
   color: white;
 }
 
@@ -176,9 +185,7 @@ footer section h4 {
 
 
 /* challenges styles */
-h1, p {
-  opacity: 0.9;
-}
+
 .challenges {
   padding: 2rem;
 }
@@ -224,7 +231,6 @@ h1, p {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem .75rem;
-  color: #00a4a6;
 }
 
 .challenges > ul > li > a {
