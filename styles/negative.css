@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
 
 /* Generic styles */
+* {
+  opacity: 0.9;
+}
 a {
   background-color: #00a4a6;
   text-decoration: none;
