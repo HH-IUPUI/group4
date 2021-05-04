@@ -3,7 +3,7 @@
 
 /* Generic styles */
 * {
-  opacity: 0.9;
+  opacity: 1;
 }
 a {
   background-color: #00a4a6;
@@ -176,6 +176,9 @@ footer section h4 {
 
 
 /* challenges styles */
+h1, p {
+  opacity: 0.9;
+}
 .challenges {
   padding: 2rem;
 }
