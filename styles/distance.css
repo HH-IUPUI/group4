@@ -178,7 +178,7 @@ footer {
     position: relative;
 }
 
-footer .footer_container {
+footer .footer_top {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     line-height: 30px;
@@ -186,11 +186,11 @@ footer .footer_container {
     margin-left: 200px;
 }
 
-footer .footer_container ul li {
+footer .footer_top ul li {
     list-style: none;
 }
 
-footer .footer_container ul li a {
+footer .footer_top ul li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
     font-size: 1.2em;
@@ -275,7 +275,7 @@ footer section h4 {
         grid-column: 1/4;
     }
 
-    footer .footer_container {
+    footer .footer_top {
         margin-left: 7rem;
     }
 
@@ -319,7 +319,7 @@ footer section h4 {
         white-space: nowrap;
     }
 
-    footer .footer_container {
+    footer .footer_top {
         margin-left: 5rem;
     }
 
