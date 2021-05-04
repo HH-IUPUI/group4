@@ -20,6 +20,7 @@ h1#distance {
     top: 38%;
     white-space: nowrap;
     color: #fff;
+    opacity: 0.9;
 }
 
 #distanceMain {
@@ -42,6 +43,10 @@ h1#distance {
     text-align: center;
     margin-top: 5%;
     font-size: 140%;
+}
+
+.readMore {
+    opacity: 0.9;
 }
 
 a.readMore {
