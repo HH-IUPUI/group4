@@ -114,6 +114,11 @@ footer section h4 {
 
 
 /* Styles for the hero image */
+
+.hide_article {
+  display: none;
+}
+
 .hero {
   /* Photo from Adobe Stock */
   background: url('../images/akesha_banner.jpeg') center;
